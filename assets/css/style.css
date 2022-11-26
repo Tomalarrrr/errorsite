@@ -1233,28 +1233,28 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #4f92af;
+  color: #ffffff;
 }
 
 .contact .contact-info address,
 .contact .contact-info p {
   margin-bottom: 0;
-  color: #444;
+  color: rgb(255, 255, 255);
 }
 
 .contact .contact-info h3 {
   font-size: 18px;
   margin-bottom: 15px;
   font-weight: 300;
-  color: #999;
+  color: rgb(255, 255, 255);
 }
 
 .contact .contact-info a {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 .contact .contact-info a:hover {
-  color: #4f92af;
+  color: #ffffff;
 }
 
 .contact .contact-address,
@@ -1286,8 +1286,8 @@ section {
 
 @media (min-width: 768px) {
   .contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
   }
 
   .contact .contact-address,
@@ -1805,6 +1805,16 @@ section {
   font-size: 14px;
 }
 
+.blogbox {
+  background: white;
+  padding: 16px;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-color: lightgrey;
+  border-width: thin;
+}
+
 /*--------------------------------------------------------------
 # Recent Blog Posts
 --------------------------------------------------------------*/
@@ -2042,9 +2052,9 @@ section {
 
 /*tree promise*/
 section.tree-animation {
-  background: #cccccc00;
+  background: #f9fafa;;
   height: 75vh;
-  padding-bottom: 10vh;
+  padding-bottom: 80vh;
 }
 section .container {
   height: 100%;
