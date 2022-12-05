@@ -16,4 +16,4 @@
  
  </IfModule>
  
-ErrorDocument 404 /404page.html
+ErrorDocument 404 /404.html
