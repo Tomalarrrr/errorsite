@@ -1,10 +1,3 @@
-/**
-* Template Name: Company - v4.9.1
-* Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*Testing for the navbar*/
 const dropdownMenus = document.querySelectorAll(".hide-on-main-page");
 function openNav() {
@@ -211,3 +204,7 @@ function closePopup() {
   var popup = document.getElementById('discount-popup');
   popup.style.display = 'none';
 }
+
+/*Double pic slider - index page */
+function beforeAfter() {
+  document.getElementById('divider').style.width = document.getElementById('splitbar').value + "%";}

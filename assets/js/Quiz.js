@@ -6,6 +6,7 @@ var Quiz = function () {
 
     this.correctAnswers = [
         { question: 1, answer: "a" },
+        { question: 2, answer: "b" },
     ];
 
     this._pickAnswer = function ($answer, $answers) {
