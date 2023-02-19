@@ -201,9 +201,10 @@ dots.forEach(dot => {
 
 /*Discount popup*/
 function closePopup() {
-  var popup = document.getElementById('discount-popup');
-  popup.style.display = 'none';
+  var popupActive = document.querySelector('.popup-active');
+  popupActive.parentNode.removeChild(popupActive);
 }
+
 
 /*Double pic slider - index page */
 function beforeAfter() {

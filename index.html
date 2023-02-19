@@ -148,7 +148,7 @@
         <div class="btn-btn-primary">
         <div class="row">
           <div class="col">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart" title="Your Saved Items" style="background-color: transparent; border-color: transparent;">
+              <button type="button" class="btn btn-primarys" data-toggle="modal" data-target="#cart" title="Your Saved Items" style="background-color: transparent; border-color: transparent;">
                 <i class="fa-regular fa-heart" aria-hidden="true" style="color: red; font-size: x-large;"></i>
               </button>
           </div>
@@ -202,16 +202,16 @@
   <main>
 
 
-  <!--Discount Popup  UNCOMMENT WHEN DONE
+  <!--Discount Popup  UNCOMMENT WHEN DONE-->
   <div class="popup-active">
-    <div id="discount-popup" class="hidden-xs">
-      <div>
+    <div id="discount-popup">
+      <div class="backg">
         <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="Special Offer">
         <div style="position: absolute; top: 20px; right: 25px; font-size: large;">
           <span onclick="closePopup()" style="cursor: pointer;">&times;</span>
         </div>
       </div>
-      <div class="text">
+      <div class="discount-text" style="text-align-last: center; align-self: center;">
         <div style="padding: 4vh;">
           <h2>Special Offer</h2>
           <br>
@@ -225,8 +225,8 @@
         </div>
       </div>
     </div>
-  </div> -->
-
+  </div>
+  
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -335,7 +335,7 @@
         </a>
       </div>
     </div>
-  </div>  
+  </div>
 
   <section style="background-color:#eeeeeebf;">
     <div class="d-flex flex-wrap" style="text-align: -webkit-center;">
@@ -369,42 +369,63 @@
     </div>
   </section>
   
+  <!--Popular pieces-->
+  <BR><br>
+    <h3 style="font-size:small; padding-left: 10vmin;     text-align: center;">A collection of our client favourites</h3>
 
   <!--Cards with bottom buttons-->
-  <section class="linktile" style="padding-left: 5vw; padding-right: 5vw; background-color: #f8f8f8;">
-      <div class="row" style="place-content: center;">
-        <div class="col-sm-2 col-6">
-          <div class="position-relative">
-            <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="image1" class="img-fluid" style="border-radius: 15px; width: fit-content; margin-bottom: 10px;">
-            <button class="btn btn-primary position-absolute" type="button" class="btn btn-primary order-now" style="background-color: #f8f8f8; border-color: #3f4e4f; top: 85%; left: 50%; transform: translate(-50%, -50%); padding: 5px 4vh; color: rgb(106, 106, 106);">Button 6</button>
+  <div class="product-card-slider-wrapper" style="align-items: center;">
+    <ul class="product-card-slider">
+      <li class="product-card-slider__item">
+        <div class="product-card">
+          <div class="product-card__thumbnail-wrapper">
+            <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="">
+            <button class="btn btn-primary" type="button" class="btn btn-primary order-now" style="background-color: #f8f8f8; border-color: #3f4e4f; top: 85%; left: 50%; transform: translate(-50%, -50%); padding: 5px 4vh; color: rgb(106, 106, 106); top: -4vh;">Dining Tables</button>
           </div>
         </div>
-        <div class="col-sm-2 col-6">
-          <div class="position-relative">
-            <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="image2" class="img-fluid" style="border-radius: 15px; width: fit-content;">
-            <button class="btn btn-primary position-absolute" type="button" class="btn btn-primary order-now" style="background-color: #f8f8f8; border-color: #3f4e4f; top: 85%; left: 50%; transform: translate(-50%, -50%); padding: 5px 4vh; color: rgb(106, 106, 106);">Button 6</button>
+      </li>
+      <li class="product-card-slider__item">
+        <div class="product-card">
+          <div class="product-card__thumbnail-wrapper">
+            <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="">
+            <button class="btn btn-primary" type="button" class="btn btn-primary order-now" style="background-color: #f8f8f8; border-color: #3f4e4f; top: 85%; left: 50%; transform: translate(-50%, -50%); padding: 5px 4vh; color: rgb(106, 106, 106); top: -4vh;">Dining Tables</button>
           </div>
         </div>
-        <div class="col-sm-2 col-6">
-          <div class="position-relative">
-            <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="image3" class="img-fluid" style="border-radius: 15px; width: fit-content; margin-bottom: 10px;">
-            <button class="btn btn-primary position-absolute" type="button" class="btn btn-primary order-now" style="background-color: #f8f8f8; border-color: #3f4e4f; top: 85%; left: 50%; transform: translate(-50%, -50%); padding: 5px 4vh; color: rgb(106, 106, 106);">Button 6</button>
+      </li>
+      <li class="product-card-slider__item">
+        <div class="product-card">
+          <div class="product-card__thumbnail-wrapper">
+            <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="">
+            <button class="btn btn-primary" type="button" class="btn btn-primary order-now" style="background-color: #f8f8f8; border-color: #3f4e4f; top: 85%; left: 50%; transform: translate(-50%, -50%); padding: 5px 4vh; color: rgb(106, 106, 106); top: -4vh;">Dining Tables</button>
           </div>
         </div>
-        <div class="col-sm-2 col-6">
-          <div class="position-relative">
-            <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="image4" class="img-fluid" style="border-radius: 15px; width: fit-content;">
-            <button class="btn btn-primary position-absolute" type="button" class="btn btn-primary order-now" style="background-color: #f8f8f8; border-color: #3f4e4f; top: 85%; left: 50%; transform: translate(-50%, -50%); padding: 5px 4vh; color: rgb(106, 106, 106);">Button 6</button>
+      </li>
+      <li class="product-card-slider__item">
+        <div class="product-card">
+          <div class="product-card__thumbnail-wrapper">
+            <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="">
+            <button class="btn btn-primary" type="button" class="btn btn-primary order-now" style="background-color: #f8f8f8; border-color: #3f4e4f; top: 85%; left: 50%; transform: translate(-50%, -50%); padding: 5px 4vh; color: rgb(106, 106, 106); top: -4vh;">Dining Tables</button>
           </div>
         </div>
-      </div>
-  </section>
+      </li>
+      <li class="product-card-slider__item">
+        <div class="product-card">
+          <div class="product-card__thumbnail-wrapper">
+            <img src="assets/img/pexels-mark-mccammon-1080696.jpg" alt="">
+            <button class="btn btn-primary" type="button" class="btn btn-primary order-now" style="background-color: #f8f8f8; border-color: #3f4e4f; top: 85%; left: 50%; transform: translate(-50%, -50%); padding: 5px 4vh; color: rgb(106, 106, 106); top: -4vh;">Dining Tables</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
 
   
 
 <!--Finishes and Colours-->
 <section style="background-color:#f8f8f8;" style="padding-bottom:0px;">
-  <div class="tabs" style="padding-top: 2.5px;">
+  <h3 class="choose-leg-finish-title" style="text-align-last: center;">Colours & Finishes</h3>
+  <br>
+    <div class="tabs" style="padding-top: 2.5px;">
     <ul>
       <li class="is-active" data-target="tab-1" style="font-size: 2vh;">
         <a>OUR PAINT COLOURS</a>
@@ -649,7 +670,7 @@
   </section>
   
       <!--Benefits-->
-      <section class="calltoaction" style="background-color: #f8f8f8;">
+      <section class="calltoactions" style="background-color: #f8f8f8;">
         <div class="container">
           <div class="row">
             <div class="col-6 col-sm-3" style="text-align-last: center;">
@@ -783,7 +804,7 @@
     </div>
   </div>
 
-  <p style="text-align-last: center; margin-bottom: 0rem;">Copyright © 2021 TwistedTreeline. All rights reserved.</p><BR><BR>
+  <p style="text-align-last: center; margin-bottom: 0rem; text-align: -webkit-center;">Copyright © 2021 TwistedTreeline. All rights reserved.</p><BR><BR>
 
 </footer>
   
